@@ -9,11 +9,15 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.8",
+    "formik": "^2.4.9",
     "next": "16.0.0",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "react-input-mask": "^2.0.4",
+    "zod": "^4.1.12"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -21,6 +25,6 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.0.0",
-    "typescript": "^5"
+    "typescript": "^5.9.3"
   }
 }

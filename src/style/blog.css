@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(184deg, rgba(216, 236, 251, 1) 0%, rgba(243, 242, 248, 1) 100%, rgba(255, 255, 255, 1) 100%);
+}
+
+h1 {
+    font-size: clamp(2.5rem, 2.5vw, 3rem);
+    font-weight: 700;
+    color: #0E121B;
+    margin-block: 2.5rem;
+}
+
+.shape-light {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.blog-light {
+    overflow: hidden;
+    position: relative;
+}

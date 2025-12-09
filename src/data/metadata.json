@@ -1,0 +1,41 @@
+{
+    "site": {
+        "name": "InsurUp",
+        "url": "https://www.insurup.com",
+        "locale": "tr_TR",
+        "defaultImage": "/InsurUp Icon.svg"
+    },
+    "pages": {
+        "/": {
+            "title": "InsurUp: Sigortacılık CRM Sistemi",
+            "description": "InsurUp, sigorta acenteleri ve brokerları için satış performansını artıran ve müşteriye 360 derece odaklanan için bir CRM sistemidir.",
+            "keywords": ["sigorta crm", "sigorta acentesi yazılımı", "dijital sigortacılık", "hızlı teklif programı", "poliçe yönetimi", "insurup"],
+            "image": "/InsurUp/insurup-logo.svg"
+        },
+        "/fiyatlandirma": {
+            "title": "Fiyatlandırma - InsurUp CRM Paketleri ve Ücretleri",
+            "description": "InsurUp CRM paket seçenekleri ve fiyatları. Standart, Dijital ve Dijital Profesyonel paketlerle acentenize en uygun çözümü bulun.",
+            "keywords": ["insurup fiyat", "sigorta crm fiyatları", "acente yazılımı ücreti", "sigorta programı fiyatı"],
+            "image": "/InsurUp/insurup-logo.svg"
+        },
+        "/blog": {
+            "title": "Dijital Sigortacılık Yazılımları ve Yenilikleri - InsurUp Blog",
+            "description": "Sigorta sektörünün dijital öncüsü InsurUp ile yenilikleri takip edin ve işinizi dijital dönüşümle nasıl geliştirebileceğinizi güncel içeriklerle hemen keşfedin.",
+            "keywords": ["sigorta blog", "dijital sigortacılık", "acente rehberi", "sigorta haberleri"],
+            "image": "/InsurUp/insurup-logo.svg"
+        },
+        "/urunler/web-satis-platformu": {
+            "title": "Web Satış Platformu | InsurUp",
+            "description": "Sigorta acenteleri ve brokerleri için web servis altyapılı dijital sigorta satış yazılımı. Anında teklif, güvenli ödeme ve müşteri portalı ile hızlı poliçe satışı.",
+            "keywords": ["sigorta web satış", "online sigorta satışı", "sigorta web sitesi", "dijital sigorta platformu"],
+            "image": "/InsurUp/insurup-logo.svg"
+        },
+        "/yazarlar": {
+            "title": "Tuğçe Akgül - InsurUp Blog Dijital Sigortacılık Yazarı",
+            "description": "Dijital sigortacılık sektörünün öncüsü Tuğçe Akgül, InsurUp blogunda sigorta yazılımları, CRM çözümleri ve sektörel yenilikler hakkında değerli içerikler paylaşıyor.",
+            "keywords": ["insurup yazarlar", "sigorta uzmanları"],
+            "image": "/InsurUp/insurup-logo.svg"
+        }
+    }
+}
+
