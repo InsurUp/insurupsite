@@ -11,7 +11,9 @@ const menuItems = [
     {
         label: "Ürünler",
         submenu: [
-            { label: "Web Satış Platformu", href: "/urunler/web-satis-platformu" }
+            { label: "CRM", href: "/urunler/crm" },
+            { label: "Web Satış Platformu", href: "/urunler/web-satis-platformu" },
+            { label: "InsurChat", href: "/urunler/insurchat" }
         ],
     },
     { label: "Ücretlendirme", onClick: (e: React.MouseEvent<HTMLElement>) => focusSection("billing", e) },

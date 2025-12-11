@@ -1,47 +1,81 @@
 "use client";
 import Link from 'next/link'
-import { focusSection } from '@/utils/helper'
 
 function Hero() {
     return (
-        <section id="banner">
+        <section className="hero-section">
+            <img 
+                src="https://storage.acerapps.io/app-1551/InsurUp/main/banner-shape.png" 
+                className="banner-shape w-100" 
+                alt="Hero Shape" 
+            />
+
             <div className="container">
-                <div className="row">
-                    <div className="col-lg-12">
-                        <div className="banner_wrapper" data-aos="fade-up"
-                            data-aos-duration="1500">
-                            <div className="banner_text">
-                                <span className="banner-badge"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.75 3.16406C7.25482 3.16406 7.66406 2.75482 7.66406 2.25H8.08594C8.08594 2.75482 8.49518 3.16406 9 3.16406V3.58594C8.49518 3.58594 8.08594 3.99518 8.08594 4.5H7.66406C7.66406 3.99518 7.25482 3.58594 6.75 3.58594V3.16406ZM1.875 5.625C3.11764 5.625 4.125 4.61764 4.125 3.375H4.875C4.875 4.61764 5.88236 5.625 7.125 5.625V6.375C5.88236 6.375 4.875 7.38236 4.875 8.625H4.125C4.125 7.38236 3.11764 6.375 1.875 6.375V5.625ZM7.96875 6.75C7.96875 7.42309 7.42309 7.96875 6.75 7.96875V8.53125C7.42309 8.53125 7.96875 9.07691 7.96875 9.75H8.53125C8.53125 9.07691 9.07691 8.53125 9.75 8.53125V7.96875C9.07691 7.96875 8.53125 7.42309 8.53125 6.75H7.96875Z" fill="#335CFF" />
-                                    <path d="M6.75 3.16406C7.25482 3.16406 7.66406 2.75482 7.66406 2.25H8.08594C8.08594 2.75482 8.49518 3.16406 9 3.16406V3.58594C8.49518 3.58594 8.08594 3.99518 8.08594 4.5H7.66406C7.66406 3.99518 7.25482 3.58594 6.75 3.58594V3.16406ZM1.875 5.625C3.11764 5.625 4.125 4.61764 4.125 3.375H4.875C4.875 4.61764 5.88236 5.625 7.125 5.625V6.375C5.88236 6.375 4.875 7.38236 4.875 8.625H4.125C4.125 7.38236 3.11764 6.375 1.875 6.375V5.625ZM7.96875 6.75C7.96875 7.42309 7.42309 7.96875 6.75 7.96875V8.53125C7.42309 8.53125 7.96875 9.07691 7.96875 9.75H8.53125C8.53125 9.07691 9.07691 8.53125 9.75 8.53125V7.96875C9.07691 7.96875 8.53125 7.42309 8.53125 6.75H7.96875Z" fill="url(#paint0_linear_1026_2479)" fill-opacity="0.16" />
-                                    <defs>
-                                        <linearGradient id="paint0_linear_1026_2479" x1="5.8125" y1="2.25" x2="5.8125" y2="9.75" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="white" />
-                                            <stop offset="1" stop-color="white" stop-opacity="0" />
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
-                                    Sigorta acenteleri için CRM sistemi</span>
-                                <h1>Acentenizin potansiyelini en üst düzeye çıkarın</h1>
-                                <p>
-                                    InsurUp CRM, sigorta acenteleri ve brokerleri için satış performansını artıran ve müşteriye 360 derece odaklanan birçok özellik sağlar.
-                                </p>
-                                <Link href="javascript:;" onClick={(event: React.MouseEvent<HTMLAnchorElement>) => focusSection('iletisim', event)} className="btn-default">Erken erişime katıl</Link>
-                            </div>
-                            <div className="banner_video">
+                <div className="main-description">
+                    <h1>Sigorta Operasyonlarınızı <span>Dijitalleştirin</span></h1>
+                    <p>
+                        Hızlı ve bütçe dostu websitesi, entegre CRM ve bir çok ürünümüz ile <br /> 
+                        acentenizin <strong>büyüme hızını 3 kat artırın.</strong>
+                    </p>
+                </div>
 
-                                <div className="video-layer">
-                                    <div className="video-container">
-                                        <video id="video1" src="/video/intro-min.mp4" autoPlay muted playsInline style={{ cursor: 'auto', width: '100%', height: '100%', borderRadius: '0px', display: 'block', objectFit: 'cover', backgroundColor: 'rgba(0, 0, 0, 0)', objectPosition: '50% 50%' }}></video>
-                                        <video id="video2" src="/video/loop-min.mp4" loop autoPlay muted playsInline style={{ cursor: 'auto', width: '100%', height: '100%', borderRadius: '0px', display: 'block', objectFit: 'cover', backgroundColor: 'rgba(0, 0, 0, 0)', objectPosition: '50% 50%' }}></video>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div>
+                <div className="main-video-box">
+                    <div className="play-box">
+                        <i className="fa-solid fa-play"></i>
                     </div>
+                </div>
+
+                <div className="main-services-flex">
+                    <Link href="/urunler/crm" className="item">
+                        <div className="dot dot-1"></div>
+                        <div className="dot dot-2"></div>
+                        <div className="dot dot-3"></div>
+                        <div className="dot dot-4"></div>
+                        <div className="icon-flex">
+                            <div className="icon-box">
+                                <img 
+                                    src="https://storage.acerapps.io/app-1551/InsurUp/insurcrm-icon.png" 
+                                    alt="Insurup CRM Görseli" 
+                                    title="InsurUp CRM" 
+                                />
+                            </div>
+                            <span>InsurUp CRM</span>
+                        </div>
+                    </Link>
+
+                    <Link href="/urunler/web-satis-platformu" className="item">
+                        <div className="dot dot-1"></div>
+                        <div className="dot dot-2"></div>
+                        <div className="dot dot-3"></div>
+                        <div className="dot dot-4"></div>
+                        <div className="icon-flex">
+                            <div className="icon-box">
+                                <img 
+                                    src="https://storage.acerapps.io/app-1551/InsurUp/web-satis.png" 
+                                    alt="Web Satış Platformu Görseli" 
+                                    title="Web Satış Platformu" 
+                                />
+                            </div>
+                            <span>Web Satış Platformu</span>
+                        </div>
+                    </Link>
+
+                    <Link href="/urunler/insurchat" className="item">
+                        <div className="dot dot-1"></div>
+                        <div className="dot dot-2"></div>
+                        <div className="dot dot-3"></div>
+                        <div className="dot dot-4"></div>
+                        <div className="icon-flex">
+                            <div className="icon-box">
+                                <img 
+                                    src="https://storage.acerapps.io/app-1551/InsurUp/main/insur-wallet-ic.png" 
+                                    alt="Sigorta Cüzdanı Görseli" 
+                                    title="Sigorta Cüzdanı"
+                                />
+                            </div>
+                            <span>Sigorta Cüzdanı</span>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </section>

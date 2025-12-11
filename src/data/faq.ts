@@ -70,6 +70,74 @@ export const webSatisFaqData: FAQCategory[] = [
     }
 ];
 
+// InsurChat FAQ Verileri
+export const insurChatFaqData: FAQCategory[] = [
+    {
+        id: "getting-started-chat",
+        tabId: "getting-started-chat-tab",
+        name: "Başlarken",
+        accordionId: "accordionGettingStartedChat",
+        items: [
+            {
+                id: "chatGettingStartedQ1",
+                question: "InsurChat chatbot'unu nasıl kurarım?",
+                answer: "InsurChat kurulumu çok kolaydır. Chatbot'unuzu yapılandırın, kişiselleştirin ve web sitenize tek satır kod ile entegre edin. Tüm süreç 10 dakikadan az sürer."
+            },
+            {
+                id: "chatGettingStartedQ2",
+                question: "Chatbot'un görünümünü özelleştirebilir miyim?",
+                answer: "Evet, chatbot'un renklerini, logonuzu, karşılama mesajlarını ve konuşma tonunu markanıza uygun şekilde özelleştirebilirsiniz."
+            },
+            {
+                id: "chatGettingStartedQ3",
+                question: "Hangi platformlara entegre edilebilir?",
+                answer: "InsurChat web sitelerine, mobil uygulamalara ve popüler mesajlaşma platformlarına (WhatsApp, Facebook Messenger) entegre edilebilir."
+            }
+        ]
+    },
+    {
+        id: "features-chat",
+        tabId: "features-chat-tab",
+        name: "Özellikler",
+        accordionId: "accordionFeaturesChat",
+        items: [
+            {
+                id: "chatFeaturesQ1",
+                question: "Chatbot hangi soruları yanıtlayabilir?",
+                answer: "InsurChat, sigorta ürünleri hakkında bilgi verme, teklif toplama, poliçe sorgulama ve genel müşteri destek sorularını yanıtlayabilir. Yapay zeka sayesinde sürekli öğrenir ve gelişir."
+            },
+            {
+                id: "chatFeaturesQ2",
+                question: "Chatbot müşteri bilgilerini CRM'e aktarabilir mi?",
+                answer: "Evet, InsurChat toplanan tüm müşteri bilgilerini ve lead'leri otomatik olarak InsurUp CRM'e aktarır. Manuel veri girişine gerek kalmaz."
+            },
+            {
+                id: "chatFeaturesQ3",
+                question: "Chatbot çoklu dil desteği sunuyor mu?",
+                answer: "Şu anda Türkçe dil desteği sunulmaktadır. İlerleyen dönemlerde İngilizce ve diğer diller için destek planlanmaktadır."
+            }
+        ]
+    },
+    {
+        id: "ai-support",
+        tabId: "ai-support-tab",
+        name: "Yapay Zeka ve Destek",
+        accordionId: "accordionAISupport",
+        items: [
+            {
+                id: "aiSupportQ1",
+                question: "Chatbot anlayamadığı soruları nasıl yönetir?",
+                answer: "Chatbot anlayamadığı sorularda müşteriyi canlı destek temsilcisine yönlendirir veya iletişim bilgilerini alarak geri dönüş sağlar."
+            },
+            {
+                id: "aiSupportQ2",
+                question: "Chatbot konuşmalarını raporlayabilir miyim?",
+                answer: "Evet, tüm chatbot konuşmalarını, müşteri etkileşimlerini, dönüşüm oranlarını ve performans metriklerini detaylı raporlarla takip edebilirsiniz."
+            }
+        ]
+    }
+];
+
 // Ana Sayfa FAQ Verileri
 export const mainPageFaqData: FAQCategory[] = [
     {
